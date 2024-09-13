@@ -1,0 +1,77 @@
+body {
+    background-color: #121212; /* Dark background similar to Spotify */
+    color: #e5e5e5; /* Light text color */
+    font-family: Arial, sans-serif;
+}
+.album-cover {
+width: 150px; /* Set a smaller width */
+height: 150px; /* Set a fixed height to maintain square aspect ratio */
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+object-fit: cover; /* Ensure the image covers the area */
+margin: 0 auto; /* Center the image horizontally */
+}
+
+.container {
+    padding: 2rem;
+}
+.text-center {
+    margin-bottom: 2rem;
+}
+.card {
+    background-color: #1e1e1e; /* Dark card background */
+    border: none;
+    border-radius: 8px;
+    overflow: hidden; /* Ensure rounded corners for content */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+}
+.card-img-top {
+    width: 100%;
+    height: 100px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensure image covers the area */
+}
+.card-body {
+    padding: 0.5rem;
+}
+.song-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff; /* White text for song title */
+}
+.song-artist {
+    font-size: 0.75rem;
+    color: #b3b3b3; /* Gray text for artist */
+}
+.audio-player {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.navbar {
+    background-color: #000000; /* Dark navbar background */
+}
+.navbar-brand {
+    color: #1db954; /* Spotify green */
+}
+.album-info {
+    margin-bottom: 2rem;
+}
+.album-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.album-details {
+    color: #b3b3b3;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.col-md-3 {
+    flex: 1 1 calc(25% - 1rem);
+    max-width: calc(25% - 1rem);
+}

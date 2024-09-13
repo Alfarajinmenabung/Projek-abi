@@ -1,0 +1,53 @@
+body {
+    background-color: #121212; /* Dark background like Spotify */
+    color: #e5e5e5; /* Light text color for readability */
+}
+.navbar {
+    background-color: #000000; /* Dark navbar background */
+}
+.navbar-brand {
+    color: #1db954; /* Spotify green */
+}
+.navbar-nav .nav-link {
+    color: #e5e5e5; /* Light text color for nav links */
+}
+.navbar-nav .nav-link:hover {
+    color: #1db954; /* Highlight color on hover */
+}
+.section-header {
+    color: #ffffff; /* Light color for section headers */
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.artist-card, .music-card {
+    background-color: #1e1e1e; /* Dark card background */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+}
+.album-cover img {
+    width: 100%;
+    border-radius: 8px; /* Rounded corners for images */
+}
+.card-img-top {
+    border-radius: 8px; /* Rounded corners for album covers */
+}
+.card-body {
+    padding: 1rem; /* Padding inside card body */
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff; /* White text for card titles */
+}
+.card-text {
+    color: #b3b3b3; /* Gray text for card text */
+}
+.btn-primary {
+    background-color: #1db954; /* Spotify green button */
+    border-color: #1db954;
+}
+.btn-primary:hover {
+    background-color: #1ed760; /* Slightly lighter green on hover */
+    border-color: #1ed760;
+}
